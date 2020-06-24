@@ -8,7 +8,8 @@ const msalConfig = {
   auth: {
     clientId: "8f3e7163-ac93-435d-b2cb-2f7b8d958cf9",
     authority: b2cPolicies.authorities.signUpSignIn.authority,
-    validateAuthority: false
+    validateAuthority: false,
+    redirectUri: window.location.protocol+"//"+window.location.host,
   },
   cache: {
     cacheLocation: "localStorage", // This configures where your cache will be stored
