@@ -24,7 +24,7 @@ const loginRequest = {
   scopes: ["openid", "profile"],
   extraQueryParameters: {
     ui_locales: "th",
-    organizerName: "kaokonlakao"
+    organizerName: "Default"
   }
 };
 
